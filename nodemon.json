@@ -1,0 +1,9 @@
+{
+  "watch": ["api"],
+  "ext": "ts,js",
+  "ignore": ["node_modules", "dist"],
+  "exec": "ts-node --esm api/server.ts",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
